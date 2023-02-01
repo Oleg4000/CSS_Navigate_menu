@@ -1,0 +1,306 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- App title -->
+    <title>ODW_UA</title>
+    <!-- Link CSS file -->
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <!-- Navigation bar -->
+    <header class="header">
+        <!-- Logo -->
+        <a href="http://srvservice32/ODW_UA" class="logo">ODW-ELEKTRIK</a>
+        <!-- Hamburger icon -->
+        <input class="side-menu" type="checkbox" id="side-menu"/>
+        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+        <!-- Menu -->
+        <nav class="nav">
+            <div class="header">
+                <ul>
+                    <li class="menu_attention"><a class="n" target="content" href="">Emergency</a>
+                        <ul>
+                            <li><a class="n" target="_blank" href="pr_layoutOnTrack.php?Permission=1">Equipment on Truck_Layout</a></li>
+                            <li><a class="n" target="_blank" href="ep_dictionaries.php?Permission=2">Emergency Plan Dictionary</a></li>
+                            <li><a class="n" target="_blank" href="ep_dictionaries.php?Permission=1"></a></li>
+                            <li><a class="n" target="_blank" href="ep_dictionaries.php">Emergency Plan Equipment Viewer</a></li>
+                            <li><a class="n" target="_blank" href="http://srvontiv10/oms/main/sso/load/7397">Emergency Plan Basic</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="n" target="content" href="">Info Board</a>
+                        <ul>
+                            <li><a class="n" target="content" href="">Capacity</a>
+                                <ul>
+                                    <li><a class="n" target="_blank" href="ib_chart2.php?Permission=2">Capacity Input</a></li>
+                                    <li><a class="n" target="_blank" href="ib_chart2.php">Capacity Shopfloor</a></li>
+                                    <li><a class="n" target="_blank" href="ib_capacity_report.php?Permission=1">Capacity Plant Report</a></li>
+                                    <li><a class="n" target="_blank" href="ib_capacityDict.php?Permission=1">Capacity Dictionary</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a class="n" target="content" href="">Employee</a>
+                                <ul>
+                                    <li><a class="n" target="_blank" href="ib_ShiftPlan3.php?Permission=1">Employee Shift Plan</a>
+                                    </li>
+                                    <li><a class="n" target="_blank" href="pr_worker_layout5.php?Permission=2">Employee Planning to Working Station_Input</a></li>
+                                    <li><a class="n" target="_blank" href="pr_worker_layout5.php?Permission=1">Employee Planning to Working Station</a></li>
+                                    <li><a class="n" target="_blank" href="pr_workerLayReport.php?Permission=1">Employee Presence on the Working Stations Report</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="n" target="_blank" href="pr_layout3.php?Permission=1">Production Layout</a></li>
+                            <li><a class="n" target="_blank" href="ib_evaluation_img.php?Permission=2">Quality Report</a></li>
+                            <li><a class="n" target="_blank" href="ib_LEAN_img.php?Permission=2">Lean Report</a></li>
+                            <li><a class="n" target="_blank" href="ib_capacityDict.php?Permission=3">Start Page Setting</a></li>
+                            <li><a class="n" target="_blank" href="ib_capacityDict.php?Permission=2">Info Board Setting</a></li>
+                            <li><a class="n" target="_blank" href="air_alarm.php?Permission=1">Air alarm</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="n" target="content" href="">Production</a>
+                        <ul>
+                            <li><a class="n" target="content" href="">Orders</a>
+                                <ul>
+                                    <li><a class="n" target="_blank" href="ord_input.php">Orders Overview</a></li>
+                                    <li><a class="n" target="_blank" href="ord_delay_problem.php?Permission=1">Delivery Problem</a>
+                                    </li>
+                                    <li><a class="n" target="_blank" href="ord_input4.php">Capacity per Shift Max Overview</a></li>
+                                    <li><a class="n" target="_blank" href="ord_input3.php">Working days Cost Center Planning</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a class="n" target="content" href="">BarCode</a>
+                                <ul>
+                                    <li><a class="n" target="_blank" href="bc_check.php">Check</a></li>
+                                    <li><a class="n" target="_blank" href="bc_checkScan.php">Check scan</a></li>
+                                    <li><a class="n" target="_blank" href="bc_check.php?debug=1">Check Debug</a></li>
+                                    <li><a class="n" target="_blank" href="bc_duplication.php">Duplication</a></li>
+                                    <li><a class="n" target="_blank" href="bc_report.php">Report</a></li>
+                                    <li><a class="n" target="_blank" href="bc_management3.php">Management</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="n" target="content" href="">Employee</a>
+                                <ul>
+                                    <li><a class="n" target="_blank" href="ns_worker_table.php?Permission=1">Timesheet</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="n" target="_blank" href="tm_mtm2v3.php?Permission=2">MTM-2 Calculator</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="n" target="content" href="">HR</a>
+                        <ul>
+                            <li><a class="n" target="content" href="">Qualification</a>
+                                <ul>
+                                    <li><a class="n" target="_blank" href="qf4_view.php">QMatrix Shopfloor</a></li>
+                                    <li><a class="n" target="_blank" href="qf_view.php">QMatrix Office</a></li>
+                                    <li><a class="n" target="_blank" href="qf3_dictionaries.php">Dictionaries Shopfloor</a></li>
+                                    <li><a class="n" target="_blank" href="qf_dictionaries.php">Dictionaries Office</a></li>
+                                    <li><a class="n" target="_blank" href="qf_view.php?Permission=5">QMatrix Old</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="n" target="content" href="">Training</a>
+                                <ul>
+                                    <li><a class="n" target="_blank" href="ns_study.php?Permission=2">Study old</a></li>
+                                    <li><a class="n" target="_blank" href="std_themeList.php">Template</a></li>
+                                    <li><a class="n" target="_blank" href="std_plan.php?Permission=2">Planning</a></li>
+                                    <li><a class="n" target="_blank" href="ns_study2.php?Permission=2">Protocol</a></li>
+                                    <li><a class="n" target="_blank" href="ns_study2.php?Permission=3">Protocol HR</a></li>
+                                    <li><a class="n" target="_blank" href="std_worker_report.php?Permission=2">Report</a></li>
+                                    <li><a class="n" target="_blank" href="std_KST_tree_report.php">KST report</a></li>
+                                    <li><a class="n" target="_blank" href="std_notification.php">Training Notification</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="n" target="content" href="">Vacation</a>
+                                <ul>
+                                    <li><a class="n" target="_blank" href="vacation4.php?Permission=1">Vacations Input</a></li>
+                                    <li><a class="n" target="_blank" href="vacation4.php?Permission=2&amp;_=v5">Vacations Leader</a></li>
+                                    <li><a class="n" target="_blank" href="vacation4.php?Permission=3&amp;_=v5">Vacations HR</a></li>
+                                    <li><a class="n" target="_blank" href="vacation4.php?Permission=5">Vacations Security</a></li>
+                                    <li><a class="n" target="_blank" href="vacation4.php?Permission=4&amp;_=v5">Vacations Overview</a></li>
+                                    <li><a class="n" target="_blank" href="vac_reminder.php?Permission=1">Vacation Availability Report</a></li>
+                                    <li><a class="n" target="_blank" href="vac_reminder.php?Permission=3">Vacation Availability Report HR</a></li>
+                                    <li><a class="n" target="_blank" href="vac_reminder_year.php?Permission=3">Vacation Availability per Year Report HR</a></li>
+                                    <li><a class="n" target="_blank" href="vac_schedule.php?Permission=1">Vacation Schedule Leader</a></li>
+                                    <li><a class="n" target="_blank" href="vac_schedule.php?Permission=3">Vacation Schedule HR</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a class="n" target="content" href="">Time accounting</a>
+                                <ul>
+                                    <li><a class="n" target="_blank" href="ns_absence_report.php?Permission=3">Employee Absence HR</a></li>
+                                    <li><a class="n" target="_blank" href="ta_timing.php?Permission=2">Overtime HR</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="n" target="content" href="">Employees Data</a>
+                                <ul>
+                                    <li><a class="n" target="_blank" href="ns_Present_UA.php">Employee Presence</a></li>
+                                    <li><a class="n" target="_blank" href="ns_workers.php">Employee Personal Data</a></li>
+                                    <li><a class="n" target="_blank" href="ns_dictionaries.php">Employee Dictionaries</a></li>
+                                    <li><a class="n" target="_blank" href="ns_sight.php?Permission=2">Employee Eye test</a></li>
+                                    <li><a class="n" target="_blank" href="std_positionList.php?Permission=2">Employee Job Position_UA</a></li>
+                                    <li><a class="n" target="_blank" href="ns_badge.php">Employee_ID Badges</a></li>
+                                    <li><a class="n" target="_blank" href="ns_w_list.php?Permission=2">Employee Transliteration</a></li>
+                                    <li><a class="n" target="_blank" href="ns_importAll_SAP.php">Update from SAP</a></li>
+                                    <li><a class="n" target="_blank" href="ns_report.php">Report</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="n" target="_blank" href="hr_stat.php">HR Statistics</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="n" target="content" href="">Project management</a>
+                        <ul>
+                            <li><a class="n" target="content" href="">Equipment and Tools</a>
+                                <ul>
+                                    <li><a class="n" target="_blank" href="pm_exec.php">Internal order_Viewer</a></li>
+                                    <li><a class="n" target="_blank" href="pm_exec.php?Permission=1">Internal order</a></li>
+                                    <li><a class="n" target="_blank" href="pm_exec.php?Permission=2">Internal order PL</a></li>
+                                    <li><a class="n" target="_blank" href="pm_exec.php?Permission=3">Internal order EW</a></li>
+                                    <li><a class="n" target="_blank" href="pm_exec.php?Permission=4">Internal order EW_Leader</a></li>
+                                    <li><a class="n" target="_blank" href="pm_exec.php?Permission=5">Internal order WZB</a></li>
+                                    <li><a class="n" target="_blank" href="pm_exec.php?Permission=6">Internal order WZB_Leader</a></li>
+                                    <li><a class="n" target="_blank" href="pm_exec.php?Permission=7">Internal order_BE</a></li>
+                                    <li><a class="n" target="_blank" href="pm_exec.php?Permission=8">Internal order_BE_Leader</a></li>
+                                    <li><a class="n" target="_blank" href="pm_exec.php?Permission=9">Internal order BM</a></li>
+                                    <li><a class="n" target="_blank" href="pm_exec.php?Permission=10">Internal order BM Leader</a></li>
+                                    <li><a class="n" target="_blank" href="pm_exec.php?Permission=11">Internal order COST</a></li>
+                                    <li><a class="n" target="_blank" href="pm_exec.php?Permission=12">Internal order ACCOUNT</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="n" target="_blank" href="pm_time.php?Permission=1">Time accounting B13</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="n" target="content" href="">Warehouse</a>
+                        <ul>
+                            <li><a class="n" target="content" href="">Delivery</a>
+                                <ul>
+                                    <li><a class="n" target="_blank" href="fp_dictionaries.php?Permission=2">Delivery Dictionary Customs</a></li>
+                                    <li><a class="n" target="_blank" href="fp_dictionaries.php?Permission=1">Delivery_Dictionary Warehouse</a></li>
+                                    <li><a class="n" target="_blank" href="fp_coverletter.php?Permission=1">Delivery Planning Production</a></li>
+                                    <li><a class="n" target="_blank" href="fp_coverletter.php?Permission=2">Delivery Planning Info Board</a></li>
+                                    <li><a class="n" target="_blank" href="fp_coverletter.php?Permission=3">Delivery Planning Leader</a></li>
+                                    <li><a class="n" target="_blank" href="fp_coverletter.php?Permission=5">Delivery Planning Customs</a></li>
+                                    <li><a class="n" target="_blank" href="fp_coverletter.php?Permission=4">Delivery Planning Warehouse</a></li>
+                                    <li><a class="n" target="_blank" href="fp_coverletter.php?Permission=6">Delivery Planning GP12</a></li>
+                                    <li><a class="n" target="_blank" href="fp_coverletter.php">Delivery Planning</a></li>
+                                    <li><a class="n" target="_blank" href="fp_cl_report.php">Delivery Report</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="n" target="content" href="">Uniform</a>
+                                <ul>
+                                    <li><a class="n" target="_blank" href="uf_giving.php?Permission=2">Hand out</a></li>
+                                    <li><a class="n" target="_blank" href="uf_storage.php">Goods Availability Report</a></li>
+                                    <li><a class="n" target="_blank" href="uf_income.php?Permission=2">Incoming invoice External supplier</a></li>
+                                    <li><a class="n" target="_blank" href="uf_outgoing.php">Hand out Report</a></li>
+                                    <li><a class="n" target="_blank" href="uf_writeOff.php?Permission=2">Goods Write off</a></li>
+                                    <li><a class="n" target="_blank" href="uf_needs.php">Need to Book</a></li>
+                                    <li><a class="n" target="_blank" href="uf_order.php?Permission=2">Order Planning</a></li>
+                                    <li><a class="n" target="_blank" href="uf_dictionaries.php?Permission=2">Dictinaries</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="n" target="content" href="">Courier</a>
+                                <ul>
+                                    <li><a class="n" target="_blank" href="np_ttn.php?Permission=1">TTN Intern courier</a></li>
+                                    <li><a class="n" target="_blank" href="np_ttn.php?Permission=2">TTN Intern customer</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a class="n" target="content" href="">Organization</a>
+                        <ul>
+                            <li><a class="n" target="content" href="">Overtime work</a>
+                                <ul>
+                                    <li><a class="n" target="_blank" href="ta_weekend.php">Overtime Planning Viewer</a></li>
+                                    <li><a class="n" target="_blank" href="ta_weekend.php?Permission=1">Overtime Planning</a></li>
+                                    <li><a class="n" target="_blank" href="ta_weekend.php?Permission=3">Overtime Planning_Leader</a></li>
+                                    <li><a class="n" target="_blank" href="ta_weekend.php?Permission=2">Overtime Planning_HR</a></li>
+                                    <li><a class="n" target="_blank" href="ta_timing.php?Permission=1">Overtime Input</a></li>
+                                    <li><a class="n" target="_blank" href="ta_report_rt.php">Overtime Report</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="n" target="content" href="">Kitchen</a>
+                                <ul>
+                                    <li><a class="n" target="_blank" href="kt_dictionaries.php">Dictionaries</a></li>
+                                    <li><a class="n" target="_blank" href="kt_sale.php">Sale</a></li>
+                                    <li><a class="n" target="_blank" href="kt_exchenge1C.php?Permission=1">Exchange 1C</a></li>
+                                    <li><a class="n" target="_blank" href="kt_report.php">Report</a></li>
+                                    <li><a class="n" target="_blank" href="kitchenInfo.php">KitchenInfo</a></li>
+                                    <li><a class="n" target="_blank" href="kt_saleSAP.php">SaleSAP</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="n" target="content" href="">Orders</a>
+                                <ul>
+                                    <li><a class="n" target="_blank" href="empl_plan.php">Employee Cost Center Report</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="n" target="content" href="">Bus delivery</a>
+                                <ul>
+                                    <li><a class="n" target="_blank" href="ns_routeshift_rt.php">Route Shift Report</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="n" target="content" href="">Time accounting</a>
+                                <ul>
+                                    <li><a class="n" target="_blank" href="ta_timing.php">Overtime Viewer</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="n" target="content" href="">Permission</a>
+                                <ul>
+                                    <li><a class="n" target="_blank" href="menu_tree.php">User permission IT</a></li>
+                                    <li><a class="n" target="_blank" href="ns_group_tree.php?Permission=4">Cost center permission_IT</a></li>
+                                    <li><a class="n" target="_blank" href="userslist.php">User list IT</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="n" target="content" href="">Visitors</a>
+                                <ul>
+                                    <li><a class="n" target="_blank" href="org_visitors.php">Visitors viewer</a></li>
+                                    <li><a class="n" target="_blank" href="org_visitors.php?Permission=1">Visitors Input</a></li>
+                                    <li><a class="n" target="_blank" href="org_visitors.php?Permission=2">Visitors Leader allow</a></li>
+                                    <li><a class="n" target="_blank" href="org_visitors.php?Permission=3">Visitors Secure</a></li>
+                                    <li><a class="n" target="_blank" href="org_visitors.php?Permission=4">Visitors Safety and Health</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="n" target="content" href="">Survey</a>
+                                <ul>
+                                    <li><a class="n" target="_blank" href="vt_report.php">Survey report</a></li>
+                                    <li><a class="n" target="_blank" href="vt_KST_tree_report.php">Survey KST report</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a class="n" target="content" href="">Safety and Health</a>
+                        <ul>
+                            <li><a class="n" target="_blank" href="op_study.php?Permission=2">Employee Safety Requirements</a></li>
+                            <li><a class="n" target="_blank" href="op_study.php">Employee Safety Requirements Viewer</a></li>
+                            <li><a class="n" target="_blank" href="nurse_therapy.php?Permission=3">Employee Medical Assistance</a></li>
+                            <li><a class="n" target="_blank" href="nurse_therapy.php">Employee Medical Assistance Report</a></li>
+                            <li><a class="n" target="content" href="">Power Engineering</a>
+                                <ul>
+                                    <li><a class="n" target="_blank" href="en_dictionaries.php">Dictinaries</a></li>
+                                    <li><a class="n" target="_blank" href="en_check.php?Permission=1">Check List</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu_attention"><a class="n" target="content" href="">Action Plan</a>
+                        <ul>
+                            <li><a class="n" target="_blank" href="mp_list.php">Action Plan</a></li>
+                            <li><a class="n" target="_blank" href="mp_list.php?Permission=3">Action Plan FBL</a></li>
+                            <li><a class="n" target="_blank" href="mp_list.php?Permission=1">Action Plan QMF</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- Main content -->
+    <main>
+        <article>
+            <h1>
+                Some content
+            </h1>
+            <p>
+                More Content
+            </p>
+        </article>
+    </main>
+</body>
+</html>
